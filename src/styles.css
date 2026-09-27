@@ -1,3 +1,43 @@
 .App {
   font-family: sans-serif;
 }
+.titel{
+  font-weight: bold;
+  text-decoration: underline;
+ font-family: "Times New Roman", serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.einleitung {
+  font-size: larger;
+  width: 400px;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+.box {
+  width: 400px;
+  margin-top: 6px;
+  margin-right: 4px;
+  padding: 8px;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+.box_titel {
+  background-color: gray;
+  margin: 0;
+  padding: 8px;
+}
+.label {
+  font-weight: bold;
+}
+td {
+  padding: 4px 12px 4px 0;
+}
